@@ -15,6 +15,6 @@ public:
             int temp=res[i]^((1<<maximumBit)-1);
             res[i]=temp;
             }
-                   return res;
+            return res;
     }
 };

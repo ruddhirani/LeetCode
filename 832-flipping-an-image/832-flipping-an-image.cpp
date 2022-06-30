@@ -12,11 +12,6 @@ public:
                 end--;
             }
         }
-        // for(int i=0;i<image.size();i++){
-        //     for(int j=0;j<image[i].size();j++){
-        //         image[i][j]^=1; 
-        //     }
-        // }
         return image;
     }
 };

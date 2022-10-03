@@ -13,3 +13,4 @@ public:
         return ans;
     }
 };
+//refer find the duplicate number

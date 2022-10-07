@@ -8,6 +8,7 @@ public:
         int low=0;
         int high= (n*m)-1;
         
+        //applying binary search on the whole matrix
         while(low<=high){
             int mid= ((low+high)/2);
             if(matrix[mid/m][mid%m]==target)
